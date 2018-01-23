@@ -1,22 +1,18 @@
  /* font-family: 'Lobster', cursive;
 font-family: 'Quicksand', sans-serif;  */
 
+/* hero img : '../img/talgat-baizrahmanov-206220.jpg' */
+
  h1,h2,h3 {
     font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase; 
+    text-transform: uppercase;
  }
 
  h1{
-     font-size: 70px
+     font-size: 70px;
  }
 
-h2{
-
-}
-h3 {
-
-}
-p{
+ p {
     font-family: 'Quicksand', sans-serif;
 }
 .button {
@@ -32,7 +28,84 @@ p{
 /* Header Styles */
 
 header {
-    height: 90px;
+    height: 100px;
     background: #CDE6F5;
     padding-top: 20px;
+}
+
+/* Header Navigation */
+.desktop-nav {
+    margin-left: 25px;
+}
+
+
+.desktop-nav ul {
+    float: right;
+    margin-top: -90px;
+    width: calc(100% - 60px);
+    text-align: right;
+    padding-top: 40px;
+}
+
+.desktop-nav li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+
+.desktop-nav a {
+    color: #1B1E1C;
+    text-decoration: none;
+}
+
+.desktop-logo-container {
+
+}
+.mobile-nav {
+    display: none;
+}
+
+@media(max-width: 572px) {
+    .mobile-nav {
+        display:inline-block;
+        float: right;
+        margin-right: 25px;
+    }
+    .desktop-nav ul {
+        display: none;
+    }
+    .mobile-nav .button {
+    background: transparent;
+    border: none;
+    color: white;
+    }
+}
+/* HERO */
+
+
+.hero {
+    height: calc(100vh - 90px);
+    background:
+    height: 200px;;
+    background-image:linear-gradient(180deg, #CDE6F5 ,transparent 60%), url('../img/talgat-baizrahmanov-206220.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #CDE6F5;
+    text-align: center;
+}
+
+
+
+/* containers */
+
+.container {
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+
+
+.footer{
+
 }
