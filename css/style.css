@@ -1,28 +1,41 @@
- /* font-family: 'Lobster', cursive;
+ /* font-family: 'Poiret One', cursive;
 font-family: 'Quicksand', sans-serif;  */
 
 /* hero img : '../img/talgat-baizrahmanov-206220.jpg' */
 
- h1,h2,h3 {
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
+ h1,h2 {
+    font-family: 'Caveat', cursive;
  }
 
  h1{
-     font-size: 70px;
+     font-size: 50px;
  }
 
- p {
-    font-family: 'Quicksand', sans-serif;
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: normal;
 }
-.button {
+
+i {
+    color: #8DA7BE;
+}
+ /* p {
+    font-family: 'Quicksand', sans-serif;
+} */
+/* button {
+    color: #CDE6F5;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     padding: 10px 40px;
     text-transform: lowercase;
     border-radius: 5px;
-    margin: 10px;
-}
+    margin: 450px 20px;
+    background-color: transparent;
+    border: 2px solid #CDE6F5;
+    } */
+
 
 
 /* Header Styles */
@@ -42,12 +55,12 @@ header {
 .desktop-nav ul {
     float: right;
     margin-top: -90px;
-    width: calc(100% - 60px);
     text-align: right;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .desktop-nav li {
+    float: right;
     display: inline;
     text-decoration: none;
     margin-left: 40px;
@@ -55,8 +68,10 @@ header {
 }
 
 .desktop-nav a {
-    color: #1B1E1C;
+    color:  #8DA7BE;
     text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
 }
 
 .desktop-logo-container {
@@ -80,6 +95,12 @@ header {
     border: none;
     color: white;
     }
+    button {
+        margin: 300px 0;
+    }
+    footer {
+    height: 400px;
+    }
 }
 /* HERO */
 
@@ -94,7 +115,10 @@ header {
     color: #CDE6F5;
     text-align: center;
 }
-
+.hero-text {
+    padding: 60px 30px;
+    float: left;
+}
 
 
 /* containers */
@@ -105,7 +129,18 @@ header {
 
 }
 
+/* FOOTER */
 
-.footer{
 
+footer {
+    height: 250px;
+    background-color: #CDE6F5;
+
+}
+.social-icons {
+    position: relative;
+    display: inline-block;
+    letter-spacing: 50px;
+    padding: 0 50px;
+    float: right;
 }
