@@ -99,7 +99,7 @@ header {
         margin: 300px 0;
     }
     footer {
-    height: 400px;
+    height: 600px;
     }
 }
 /* HERO */
@@ -133,12 +133,13 @@ header {
 
 
 footer {
-    height: 250px;
+
+    height: 400px;
     background-color: #CDE6F5;
 
 }
 .social-icons {
-    position: relative;
+    text-align: center;
     display: inline-block;
     letter-spacing: 50px;
     padding: 0 50px;
